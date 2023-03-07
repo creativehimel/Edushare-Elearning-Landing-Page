@@ -116,9 +116,12 @@ body{
     padding-bottom: 15px;
     line-height: 32px;
 }
-
+.hero-right{
+    text-align: right;
+}
 .hero-right img{
     width: 560px;
+
 }
 .hero-button{
     margin-bottom: 10px;
@@ -132,13 +135,9 @@ body{
     padding: 12px 30px;
 }
 
-
 /* =============== Hero Section CSS End ================== */
 
-.brand-partner-container{
-    max-width: 1180px;
-    margin: 0 auto;
-}
+/* =============== Brand Partner Section CSS Start ================== */
 .brand-partner{
     display: flex;
     justify-content: space-between;
@@ -157,10 +156,9 @@ body{
 .brand-info p{
     color: #606176;
 }
-.how-work-container{
-    max-width: 1180px;
-    margin: 0 auto;
-}
+/* =============== Brand Partner Section CSS End ================== */
+
+/* =============== How to Work Section CSS Start ================== */
 .how-work{
     display: flex;
     justify-content: space-between;
@@ -201,3 +199,5 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+/* =============== How to Work Section CSS End ================== */
+
